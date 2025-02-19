@@ -39,7 +39,8 @@ const router = createBrowserRouter([
         ]
     }
     
-])
+],
+    { basename: "/world-Talks" })
 
 function App() {
     return (
