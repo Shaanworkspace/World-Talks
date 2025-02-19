@@ -17,7 +17,7 @@ import HeroSection from './Pages/HeroSection'
 const router = createBrowserRouter([
 
     {
-        path:"/",
+        path:"/world-Talks/",
         element:<AppLayout/>,
         errorElement:<ErrorPage/>,
         children:[
