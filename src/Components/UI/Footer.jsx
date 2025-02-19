@@ -35,7 +35,7 @@ const Footer = () => {
         }
       </div>
       <div className="pt-6 pb-3 w-[80%] text-stone-200 text-center py-3">
-      © {new Date().getFullYear()} Shaan. All rights reserved.
+      © {new Date().getFullYear()} Shaan Yadav. All rights reserved.
     </div>
     </footer>
   )
