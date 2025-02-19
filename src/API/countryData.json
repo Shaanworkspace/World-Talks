@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "countryName": "Brazil",
+        "capital": "Brasilia",
+        "population": 213993437,
+        "interestingFact": "Brazil is home to the largest tropical rainforest in the world."
+    },
+    {
+        "id": 2,
+        "countryName": "Canada",
+        "capital": "Ottawa",
+        "population": 38005238,
+        "interestingFact": "Canada has the longest coastline of any country in the world."
+    },
+    {
+        "id": 3,
+        "countryName": "Japan",
+        "capital": "Tokyo",
+        "population": 125960000,
+        "interestingFact": "Japan has more than 6,800 islands."
+    },
+    {
+        "id": 4,
+        "countryName": "Australia",
+        "capital": "Canberra",
+        "population": 25687041,
+        "interestingFact": "Australia is home to the Great Barrier Reef, the world's largest coral reef system."
+    },
+    {
+        "id": 5,
+        "countryName": "India",
+        "capital": "New Delhi",
+        "population": 1407563842,
+        "interestingFact": "India is the birthplace of chess and yoga."
+    },
+    {
+        "id": 6,
+        "countryName": "Germany",
+        "capital": "Berlin",
+        "population": 83166711,
+        "interestingFact": "Germany is known for its engineering and automotive industry, producing brands like BMW, Mercedes-Benz, and Volkswagen."
+    },
+    {
+        "id": 7,
+        "countryName": "United Kingdom",
+        "capital": "London",
+        "population": 68207114,
+        "interestingFact": "Big Ben is actually the name of the bell inside the clock tower, not the tower itself."
+    }
+]

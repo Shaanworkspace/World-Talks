@@ -1,0 +1,17 @@
+[
+    {
+        "icon": "MdPlace",
+        "title": "Find us",
+        "details": "Pune, Maharashtra"
+    },
+    {
+        "icon": "MdLocalPhone",
+        "title": "Call us",
+        "details": "09000043211"
+    },
+    {
+        "icon": "TbMailPlus",
+        "title": "Mail us",
+        "details": "example@email.com"
+    }
+]
