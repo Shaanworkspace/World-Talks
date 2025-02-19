@@ -26,6 +26,10 @@ const router = createBrowserRouter([
                 element:<HeroSection/>
             },
             {
+                path:"/world-Talks",
+                element:<HeroSection/>
+            },
+            {
                 path:"/contact",
                 element:<Contact/>
             },
