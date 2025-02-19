@@ -12,7 +12,7 @@ const Home = () => {
                     <ButtonArrowRight text={"Start Exploring"}/>
                 </div>
                 <div className="order-1 pt-10 sm:pt-6 md:flex md:w-1/2 md:order-2 ">
-                    <img src="./public/images/image.png" alt="World Image" />
+                    <img src="/images/image.png" alt="World Image" />
                 </div>
             </div>
         </main>
