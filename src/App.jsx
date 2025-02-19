@@ -18,7 +18,7 @@ const router = createBrowserRouter([
     {
         path:"/world-Talks/",
         element:<AppLayout/>,
-        errorElement:<ErrorPage/>,
+        errorElement:<AppLayout/>,
         children:[
             {
                 path:"/world-Talks/",
