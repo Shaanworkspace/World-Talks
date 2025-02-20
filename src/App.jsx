@@ -5,6 +5,7 @@ import HeroSection from './Pages/HeroSection';
 import Contact from './Pages/Contact';
 import About from './Pages/About';
 import Country from './Pages/Country';
+import CountryDetail from "./Components/Layout/CountryDetail";
 
 // ✅ Add basename to handle GitHub Pages subdirectory
 const router = createBrowserRouter(
@@ -17,7 +18,8 @@ const router = createBrowserRouter(
                 { path: "", element: <HeroSection /> },  // ✅ Use "" instead of "/"
                 { path: "contact", element: <Contact /> },
                 { path: "about", element: <About /> },
-                { path: "country", element: <Country /> }
+                { path: "country", element: <Country /> },
+                { path: "country/:id", element: <CountryDetail /> }
             ]
         }
     ],

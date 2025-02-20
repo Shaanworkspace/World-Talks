@@ -18,14 +18,14 @@ const Footer = () => {
                 {
                     footerAPI.map((data, idx) => {
                         return <div className='flex justify-center items-center gap-4' key={idx} >
-                            <div className="text-4xl sm:text-4xl text-blue-500">
+                            <div className="text-4xl sm:text-3xl text-blue-500">
                                 {footerIcon[data.icon]}
                             </div>
                             <div>
-                                <div className="hidden lg:block  sm:text-2xl font-bold">
+                                <div className="hidden lg:block  sm:text-lg font-bold">
                                     {data.title}
                                 </div>
-                                <div className="hidden sm:block sm:text-lg text-stone-500">
+                                <div className="hidden sm:block sm:text-sm text-stone-500">
                                     {data.details}
                                 </div>
                             </div>

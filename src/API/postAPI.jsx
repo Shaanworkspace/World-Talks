@@ -8,3 +8,7 @@ export const getCountryData  = ()=>{
     return api.get("/all?fields=name,population,region,capital,flags")
 }
 
+// Get data of indivisual data
+export const getIndivisualCountryData  = (name)=>{
+    return api.get(`/name/${name}?fields=name,population,region,capital,flags`)
+}

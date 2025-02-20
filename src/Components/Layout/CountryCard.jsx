@@ -1,14 +1,15 @@
 import React from 'react'
 import ButtonArrowRight from "../Items/ButtonArrowRight.jsx"
+import { NavLink } from 'react-router-dom'
 
 const CountryCard = ({ country }) => {
 
     const readMe = ()=>{
-        console.log("clicked")
+        console.log("clicked");
     }
 
     return (
-        <li key={country.id} className=' w-[28%] h-90'>
+        <li key={country.id}  className=' w-[28%] h-90'>
             <div className='rounded-4xl p-5 border-2 bg-[linear-gradient(71deg,#080509,#1a171c,#080509)] h-full'>
                 <div className=''>
                     <img src={country.flags.svg} alt={country.flags.alt} className='max-h-34 min-h-30 rounded-2xl w-full object-fill' />
@@ -29,8 +30,9 @@ const CountryCard = ({ country }) => {
                     </p>
                 </div>
                 
-                    <ButtonArrowRight text="Read More" onClick={readMe}/>
-                
+                <NavLink to={`/country/${country.name.common}`} onClick={readMe}>
+                    <ButtonArrowRight text="Read More"/>
+                </NavLink>
             </div>
         </li>
     )
