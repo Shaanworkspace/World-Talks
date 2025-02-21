@@ -30,7 +30,7 @@ const CountryDetail = () => {
 
     return (
 
-        <section className='h-full mt-25 mb-3 flex  justify-center items-center'>
+        <section className='h-full mt-25 mb-3 flex  justify-center items-center '>
             <div className='w-[80%] rounded-2xl border-2 flex flex-col justify-center items-center'>
                 <div className='flex justify-center items-center'>
                     <div className=''>
@@ -41,12 +41,10 @@ const CountryDetail = () => {
                         <p><span className='text-xl text-stone-500  font-semibold'>Population : </span>{country.population.toLocaleString()}</p>
                         <p><span className='text-xl  text-stone-500 font-semibold'>Region : </span>{country.region}</p>
                         <p><span className='text-xl  text-stone-500 font-semibold'>Capital : </span>{country.capital}</p>
-                        <p><span className='text-xl  text-stone-500 font-semibold'>Native Name : </span>{Object.keys(country.name.nativeName).map((key) => country.name.nativeName[key].common).join(", ")}</p>
-                        {/* <p><span className='text-xl  text-stone-500 font-semibold'>Currencies : </span>{Object.keys(country.name.nativeName).map((key) => country.name.nativeName[key].common).join(", ")}</p> */}
-                    </div>
+                        <p><span className='text-xl  text-stone-500 font-semibold'>Native Name : </span>{Object.keys(country.name.nativeName).map((key) => country.name.nativeName[key].common).join(", ")}</p>                    </div>
                 </div>
 
-                <div className='pb-5'>
+                <div className=' '>
                     <NavLink to={"/country"}>
                         <span ><ButtonArrowRight text="Go Back" /></span>
                     </NavLink>

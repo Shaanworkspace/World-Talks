@@ -36,16 +36,20 @@ const Country = () => {
 
     return (
         <div className='mt-20 flex justify-center items-center'>
-            <div className='w-[80%]'>
-                <SearchFilter search={search} setSearch={setSearch} filter={filter} setFilter={setFilter} />
-                <div id='Tasklist' className='mt-3 h-screen flex flex-nowrap overflow-y-auto justify-start'>
-                    <ul className='mt-5 flex flex-wrap gap-2 justify-evenly items-center'>
-                        {
-                            filteredCountries.map((currCountry, idx) => (
-                                <CountryCard country={currCountry} key={idx} />
-                            ))
-                        }
-                    </ul>
+            <div className='w-[100%] md:w-[80%] flex flex-col justify-between'>
+                <div >
+                    <SearchFilter search={search} setSearch={setSearch} filter={filter} setFilter={setFilter} />
+                </div>
+                <div className= 'mt-6 md:mt-0 rounded-lg border-2 border-stone-500 '>
+                    <div id='Tasklist' className=' mb-3 mt-5 lg:mt-5 h-screen flex flex-nowrap overflow-y-auto justify-start'>
+                        <ul className='mt-4 flex flex-wrap gap-0.5 md:justify-between md:px-6 justify-evenly items-center'>
+                            {
+                                filteredCountries.map((currCountry, idx) => (
+                                    <CountryCard country={currCountry} key={idx} />
+                                ))
+                            }
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

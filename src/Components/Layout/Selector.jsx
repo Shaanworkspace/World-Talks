@@ -1,14 +1,14 @@
 import React from 'react'
 
-const Selector = ({onChange}) => {
+const Selector = ({ onChange }) => {
     return (
-       <select name="opt" id="" className='mt-3  border-1 w-30 h-10 rounded-2xl pl-4' onChange={onChange} >
-            <option value="All">All</option>
-            <option value="Africa">Africa</option>
-            <option value="America">America</option>
-            <option value="Europe">Europe</option>
-            <option value="Asia">Asia</option>
-            <option value="oceania">oceania</option>
+        <select name="opt" className=' mt-3 z-20  border-1 w-full md:w-30 h-10 rounded-t-md pl-4' onChange={onChange} >
+            <option className='bg-stone-600 text-white ' value="All">All</option>
+            <option className='bg-stone-600 text-white' value="Africa">Africa</option>
+            <option className='bg-stone-600 text-white' value="America">America</option>
+            <option className='bg-stone-600 text-white' value="Europe">Europe</option>
+            <option className='bg-stone-600 text-white' value="Asia">Asia</option>
+            <option className='bg-stone-600 text-white' value="oceania">oceania</option>
         </select>
     )
 }
