@@ -17,11 +17,11 @@ const SearchFilter = ({ search, setSearch, filter, setFilter, Data, setData }) =
 
     console.log(search, filter);
     return (
-        <div className='h-16 flex flex-wrap justify-center md:justify-between mt-6 mb-6 items-center ' >
+        <div className='h-16 flex flex-wrap sm:flex-row  justify-center sm:justify-between mt-6 mb-6 items-center ' >
             <div>
                 <input type="text" value={search} onChange={handleInput} placeholder='Search Country' className='rounded-lg h-10 min-w-md border-2 pl-3 ' />
             </div>
-            <div className='flex min-w-md md:min-w-sm justify-between '>
+            <div className='sm:ml-3 lg:ml-0 flex min-w-md md:min-w-sm justify-between '>
                 <div className='flex gap-1'>
                     <ButtonNormal value="" text="Asc" onClick={() => SortHandler("Asc", Data, setData)} />
                     <ButtonNormal value="" text="Desc" onClick={() => SortHandler("Desc", Data, setData)} />
